@@ -1,4 +1,6 @@
 const fs=require("fs");
+const os=require("os");
+console.log(os.cpus().length);
 
 // Async.....Non blocking behaviour
 console.log("1")
